@@ -39,6 +39,7 @@ class ContactController extends Controller
         $contact->surname = $request->surname;
         $contact->email = $request->email;
         $contact->phone = $request->phone;
+        $contact->gender = $request->gender;
         $contact->save();
         return $contact;
     }
@@ -68,6 +69,7 @@ class ContactController extends Controller
         $contact->surname = $request->surname;
         $contact->email = $request->email;
         $contact->phone = $request->phone;
+        $contact->gender = $request->gender;
         $contact->save();
         return $contact;
     }
